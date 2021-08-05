@@ -1,0 +1,22 @@
+{
+  "name": "examac",
+  "version": "1.0.0",
+  "description": "Creacion servidor web",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Angie Chuquitarco",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "img":"imagenes/pro1.jpg",
+        "info":"Es el perfume que nos trae mensaje del mar Cantábrico y las montañas, portador de aromas a nieve y acebo, a roble y olmo, a narcisos y marejada.",
+        "costo":70
+    },{
+        "img":"imagenes/pro2.jpg",
+        "info":"Perfume inspirado en la bella tierra de Asturias, contraste natural, aunando las playas del Mar Cantábrico contiene esencia de mandarina, durazno y bergamota.",
+        "costo":45
+    },{
+        "img":"imagenes/pro3.jpg",
+        "info":"Este perfume ideal para el hombre del norte, con su personalidad y su elegancia tiene salida con toques de sándalo, jengibre y nuez moscada.",
+        "costo":86
+    }
+]

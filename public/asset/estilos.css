@@ -1,0 +1,204 @@
+body {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 23px;
+}
+
+header {
+    background-image: url("../imagenes/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    justify-items: center;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 150px;
+    border-bottom: 5px solid rgb(138, 12, 143)
+}
+
+#TituloPagina {
+    font-family: Brush Script MT;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.1em rgba(226, 42, 119, 0.856);
+    justify-content: center;
+    font-size: 75px;
+}
+#RigthDiv{
+    text-align: justify;
+}
+#SubtituloPagina {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(226, 142, 205);
+    text-shadow: 0.1em 0.1em 0.1em rgb(230, 248, 244);
+    padding-bottom: 0.5em;
+}
+
+button {
+    background: rgba(179, 27, 98, 0.397);
+    color: rgba(23, 155, 144, 0.931);
+    border: 4px solid;
+    padding: 0.25em 0.5em;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin: 5px;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+button:hover {
+    border-color: rgb(95, 11, 60);
+    color: rgb(95, 11, 56);
+    box-shadow: 0 0.5em 0.5em -0.3em rgb(95, 11, 29);
+    transform: translateX(0.5em);
+    cursor: pointer;
+}
+
+section {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.Descripcion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#ImagenDescripcion {
+    margin-top: 75px;
+    border-radius: 25px;
+    border: 0.3em solid rgba(212, 93, 14, 0.918);
+}
+
+.Tienda {
+    display: flex;
+    background-image: url("../imagenes/fondo.jpg");
+    justify-items: center;
+}
+
+.RigthDiv {
+    width: 25rem;
+    padding: 1rem;
+    padding-left: 50px;
+}
+
+.LeftDiv {
+    width: 15rem;
+    height: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.break-word {
+    hyphens: auto;
+}
+
+.Titulo {
+    color: rgb(172, 53, 136);
+    font-family: Brush Script MT;
+    text-shadow: 0.1em 0.1em 0.2em rgb(228, 108, 28);
+    
+}
+
+.Subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 49, 47);
+    text-shadow: 0.1em 0.1em 0.2em rgb(236, 148, 32);
+}
+
+.Producto {
+    width: 16rem;
+    height: 15rem;
+    flex-direction: column;
+    padding: 0.4rem;
+    padding-bottom: 4rem;
+    margin: 0.4rem;
+    font-size: 0.6em;
+    border-radius: 10px;
+    border: 5px solid rgba(221, 88, 48, 0.76);
+    
+}
+
+.ImagenProducto {
+    border-radius: 10px;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+.ImagenProducto:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.BGround {
+    background-color: rgba(250, 146, 98, 0.657);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 5px solid rgba(78, 46, 9, 0.712);
+    
+}
+
+#TextoW {
+    color: rgb(48, 89, 143);
+    text-shadow: 0.1em 0.1em 0.2em rgb(168, 207, 199);
+    font-size: 20px;
+}
+
+#TextoBr {
+    color: rgba(10, 5, 82, 0.808);
+    text-shadow: 0.1em 0.1em 0.2em rgb(226, 47, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+#TextBl {
+    color: rgb(74, 2, 241);
+    text-shadow: 0.1em 0.1em 0.2em rgba(233, 26, 26, 0.507);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 17px;
+}
+
+#TextoP {
+    color: rgb(14, 28, 107);
+    text-shadow: 0.1em 0.1em 0.2em rgba(26, 197, 212, 0.507);
+    font-size: 15px;
+}
+
+.Informacion {
+    flex-direction: column;
+    border-top: 5px solid rgba(14, 78, 5, 0.712);
+    padding: 10px;
+    padding-left: 200px;
+}
+
+footer {
+    background-color: rgba(233, 149, 54, 0.822);
+    padding: 1%;
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
